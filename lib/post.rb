@@ -25,7 +25,7 @@ class Post
     @@all << title
   end
 
-  def Post.all
+  def self.all
     @@all
   end
 
