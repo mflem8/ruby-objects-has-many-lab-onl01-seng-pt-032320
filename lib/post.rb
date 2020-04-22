@@ -9,7 +9,7 @@ class Post
     @@all << title
   end
 
-  def new(post)
+  def new(
     @@all << post
   end
 
