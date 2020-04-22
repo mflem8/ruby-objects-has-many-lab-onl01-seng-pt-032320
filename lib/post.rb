@@ -22,7 +22,7 @@ class Post
 
 
   def title=(title)
-    @title = name
+    @title = title
     @@all << title
   end
 
