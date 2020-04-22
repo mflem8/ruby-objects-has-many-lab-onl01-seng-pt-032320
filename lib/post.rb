@@ -6,7 +6,7 @@ class Post
   def initialize(name)
     @name = name
     title = name
-    @@all << post
+    @@all << title
   end
 
   def posts
