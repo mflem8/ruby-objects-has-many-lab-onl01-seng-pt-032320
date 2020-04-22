@@ -11,6 +11,7 @@ class Post
 
   def posts
     post = Post.new(post)
+    @@all << post
     post.author = self
     @posts << post
   end
