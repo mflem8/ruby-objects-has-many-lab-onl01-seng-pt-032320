@@ -21,7 +21,7 @@ class Post
   end
 
 
-  def title(title)
+  def title=(title)
     @title = title
     @@all << title
   end
