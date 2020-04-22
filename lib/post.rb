@@ -9,10 +9,6 @@ class Post
     @@all << title
   end
 
-  def new
-    @@all << post
-  end
-
   def posts
     post = Post.new(post)
     post.author = self
