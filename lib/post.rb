@@ -12,7 +12,7 @@ class Post
   def posts
     post = Post.new(post)
     post.author = self
-    @posts << post
+    @all << post
   end
 
   def author=(author_obj)
