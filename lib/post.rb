@@ -9,9 +9,12 @@ class Post
     @@all << title
   end
 
+  def new(post)
+    @@all << post
+  end
+
   def posts
     post = Post.new(post)
-    @@all << post
     post.author = self
     @posts << post
   end
